@@ -1,0 +1,25 @@
+[mymesh] meshes=42443 passes=39 mesh_time_total_us=1226692 mesh_time_max_us=105385 spans=78696
+[mymesh] class    16: spans=   2165 ranges=   6842 live=    5.5 MiB phys=    8.5 MiB used= 65%
+[mymesh] class    32: spans=   1915 ranges=   6812 live=    5.4 MiB phys=    7.5 MiB used= 71%
+[mymesh] class    48: spans=      7 ranges=      7 live=    0.0 MiB phys=    0.0 MiB used= 92%
+[mymesh] class    64: spans=      4 ranges=      4 live=    0.0 MiB phys=    0.0 MiB used= 91%
+[mymesh] class    80: spans=      2 ranges=      2 live=    0.0 MiB phys=    0.0 MiB used= 62%
+[mymesh] class    96: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 25%
+[mymesh] class   112: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 24%
+[mymesh] class   128: spans=      7 ranges=      7 live=    0.0 MiB phys=    0.0 MiB used= 96%
+[mymesh] class   160: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 35%
+[mymesh] class   192: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 14%
+[mymesh] class   224: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 10%
+[mymesh] class   256: spans=   2127 ranges=  28687 live=    4.7 MiB phys=    8.3 MiB used= 56%
+[mymesh] class   320: spans=      3 ranges=      3 live=    0.0 MiB phys=    0.0 MiB used= 85%
+[mymesh] class   384: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used=  9%
+[mymesh] class   448: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 10%
+[mymesh] class   512: spans=  21238 ranges=  21251 live=   75.7 MiB phys=   83.0 MiB used= 91%
+[mymesh] class   640: spans=      2 ranges=      2 live=    0.0 MiB phys=    0.0 MiB used= 50%
+[mymesh] class   768: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 18%
+[mymesh] class   896: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 43%
+[mymesh] class  1024: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 25%
+[mymesh] class  2048: spans=      3 ranges=      3 live=    0.0 MiB phys=    0.0 MiB used= 70%
+[mymesh] class  4096: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.0 MiB used= 37%
+[mymesh] class 16384: spans=      1 ranges=      1 live=    0.0 MiB phys=    0.1 MiB used= 37%
+[mymesh] large: spans=9 bytes=8.6 MiB

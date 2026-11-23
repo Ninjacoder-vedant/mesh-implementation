@@ -1,0 +1,140 @@
+[
+  {
+    "config": "jemalloc",
+    "insert_seconds": 1.29,
+    "keys": 177369,
+    "used_memory_mib": 100.00006866455078,
+    "redis_frag_ratio": "2.25",
+    "evicted_keys": "692746",
+    "defrag_hits": "0",
+    "mean_pss_mib": 252.58043134973406,
+    "peak_pss_mib": 326.4052734375,
+    "final_pss_mib": 221.6162109375,
+    "mean_rss_mib": 256.02347905585106,
+    "peak_rss_mib": 329.84765625,
+    "final_rss_mib": 225.05859375,
+    "allocator_stats": []
+  },
+  {
+    "config": "jemalloc+activedefrag",
+    "insert_seconds": 1.403,
+    "keys": 177390,
+    "used_memory_mib": 100.0000228881836,
+    "redis_frag_ratio": "1.26",
+    "evicted_keys": "692729",
+    "defrag_hits": "435021",
+    "mean_pss_mib": 197.41163898887436,
+    "peak_pss_mib": 326.9560546875,
+    "final_pss_mib": 122.8896484375,
+    "mean_rss_mib": 200.83493537303664,
+    "peak_rss_mib": 330.37890625,
+    "final_rss_mib": 126.3125,
+    "allocator_stats": []
+  },
+  {
+    "config": "glibc",
+    "insert_seconds": 1.2,
+    "keys": 174274,
+    "used_memory_mib": 100.00005340576172,
+    "redis_frag_ratio": "3.48",
+    "evicted_keys": "695829",
+    "defrag_hits": "0",
+    "mean_pss_mib": 333.8320416945187,
+    "peak_pss_mib": 345.337890625,
+    "final_pss_mib": 345.337890625,
+    "mean_rss_mib": 337.2129010695187,
+    "peak_rss_mib": 348.71875,
+    "final_rss_mib": 348.71875,
+    "allocator_stats": []
+  },
+  {
+    "config": "mesh",
+    "insert_seconds": 1.551,
+    "keys": 174406,
+    "used_memory_mib": 99.99978637695312,
+    "redis_frag_ratio": "1.90",
+    "evicted_keys": "695736",
+    "defrag_hits": "0",
+    "mean_pss_mib": 157.3287895247781,
+    "peak_pss_mib": 330.1513671875,
+    "final_pss_mib": 129.9150390625,
+    "mean_rss_mib": 211.01111778846155,
+    "peak_rss_mib": 333.67578125,
+    "final_rss_mib": 190.65234375,
+    "allocator_stats": [
+      "MESH COUNT:         46834"
+    ]
+  },
+  {
+    "config": "mesh-nomesh",
+    "insert_seconds": 1.459,
+    "keys": 174351,
+    "used_memory_mib": 100.0001220703125,
+    "redis_frag_ratio": "3.33",
+    "evicted_keys": "695757",
+    "defrag_hits": "0",
+    "mean_pss_mib": 318.6253760026738,
+    "peak_pss_mib": 330.4443359375,
+    "final_pss_mib": 330.4443359375,
+    "mean_rss_mib": 322.0643173462567,
+    "peak_rss_mib": 333.8828125,
+    "final_rss_mib": 333.8828125,
+    "allocator_stats": [
+      "MESH COUNT:         0"
+    ]
+  },
+  {
+    "config": "mymesh",
+    "insert_seconds": 1.615,
+    "keys": 174231,
+    "used_memory_mib": 100.00006103515625,
+    "redis_frag_ratio": "1.83",
+    "evicted_keys": "695902",
+    "defrag_hits": "0",
+    "mean_pss_mib": 164.9353446283284,
+    "peak_pss_mib": 338.4052734375,
+    "final_pss_mib": 137.4140625,
+    "mean_rss_mib": 209.6410641642012,
+    "peak_rss_mib": 341.78515625,
+    "final_rss_mib": 183.8046875,
+    "allocator_stats": [
+      "[mymesh] meshes=43344 passes=54 mesh_time_total_us=1349022 mesh_time_max_us=111036 spans=78698"
+    ]
+  },
+  {
+    "config": "mymesh-nomesh",
+    "insert_seconds": 1.606,
+    "keys": 174179,
+    "used_memory_mib": 100.00009155273438,
+    "redis_frag_ratio": "2.77",
+    "evicted_keys": "695930",
+    "defrag_hits": "0",
+    "mean_pss_mib": 271.2900494514628,
+    "peak_pss_mib": 338.5888671875,
+    "final_pss_mib": 274.9052734375,
+    "mean_rss_mib": 274.72138879654256,
+    "peak_rss_mib": 342.01953125,
+    "final_rss_mib": 278.3359375,
+    "allocator_stats": [
+      "[mymesh] meshes=0 passes=0 mesh_time_total_us=0 mesh_time_max_us=0 spans=78698"
+    ]
+  },
+  {
+    "config": "mymesh-norand",
+    "insert_seconds": 1.586,
+    "keys": 174299,
+    "used_memory_mib": 99.99996948242188,
+    "redis_frag_ratio": "1.82",
+    "evicted_keys": "695842",
+    "defrag_hits": "0",
+    "mean_pss_mib": 166.44478400735295,
+    "peak_pss_mib": 338.3701171875,
+    "final_pss_mib": 136.7255859375,
+    "mean_rss_mib": 210.6289981617647,
+    "peak_rss_mib": 341.77734375,
+    "final_rss_mib": 182.265625,
+    "allocator_stats": [
+      "[mymesh] meshes=43442 passes=55 mesh_time_total_us=1469174 mesh_time_max_us=114368 spans=78698"
+    ]
+  }
+]

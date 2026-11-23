@@ -1,0 +1,8 @@
+# cloned original Mesh repo and paper
+reference/
+# build outputs
+__pycache__/
+mymesh/libmymesh.so
+mymesh/tests/test_basic
+mymesh/tests/test_frag
+mymesh/tests/test_threads

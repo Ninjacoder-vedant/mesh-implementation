@@ -1,0 +1,230 @@
+[
+  {
+    "workload": "perl",
+    "config": "glibc",
+    "median_seconds": 2.51,
+    "peak_rss_mib": 16.6,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "perl",
+    "config": "jemalloc",
+    "median_seconds": 2.214,
+    "peak_rss_mib": 21.8,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "perl",
+    "config": "mesh",
+    "median_seconds": 2.39,
+    "peak_rss_mib": 58.3,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "perl",
+    "config": "mymesh",
+    "median_seconds": 2.689,
+    "peak_rss_mib": 22.6,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "python",
+    "config": "glibc",
+    "median_seconds": 4.796,
+    "peak_rss_mib": 263.3,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "python",
+    "config": "jemalloc",
+    "median_seconds": 4.573,
+    "peak_rss_mib": 289.2,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "python",
+    "config": "mesh",
+    "median_seconds": 8.011,
+    "peak_rss_mib": 523.4,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "python",
+    "config": "mymesh",
+    "median_seconds": 8.343,
+    "peak_rss_mib": 580.5,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "gcc",
+    "config": "glibc",
+    "median_seconds": 9.553,
+    "peak_rss_mib": 341.0,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "gcc",
+    "config": "jemalloc",
+    "median_seconds": 10.59,
+    "peak_rss_mib": 453.4,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "gcc",
+    "config": "mesh",
+    "median_seconds": 10.452,
+    "peak_rss_mib": 498.4,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "gcc",
+    "config": "mymesh",
+    "median_seconds": 12.949,
+    "peak_rss_mib": 295.8,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "workload": "larson-1t",
+    "config": "glibc",
+    "median_seconds": 3.509,
+    "peak_rss_mib": 15.1,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 21586372 operations per second, relative time: 46.326s."
+  },
+  {
+    "workload": "larson-1t",
+    "config": "jemalloc",
+    "median_seconds": 3.509,
+    "peak_rss_mib": 20.8,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 23518503 operations per second, relative time: 42.520s."
+  },
+  {
+    "workload": "larson-1t",
+    "config": "mesh",
+    "median_seconds": 3.513,
+    "peak_rss_mib": 58.8,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 10592430 operations per second, relative time: 94.407s."
+  },
+  {
+    "workload": "larson-1t",
+    "config": "mymesh",
+    "median_seconds": 3.512,
+    "peak_rss_mib": 14.9,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 6458106 operations per second, relative time: 154.844s."
+  },
+  {
+    "workload": "larson-4t",
+    "config": "glibc",
+    "median_seconds": 3.529,
+    "peak_rss_mib": 37.1,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 57517760 operations per second, relative time: 17.386s."
+  },
+  {
+    "workload": "larson-4t",
+    "config": "jemalloc",
+    "median_seconds": 3.515,
+    "peak_rss_mib": 49.4,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 64770704 operations per second, relative time: 15.439s."
+  },
+  {
+    "workload": "larson-4t",
+    "config": "mesh",
+    "median_seconds": 3.533,
+    "peak_rss_mib": 79.0,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 20521736 operations per second, relative time: 48.729s."
+  },
+  {
+    "workload": "larson-4t",
+    "config": "mymesh",
+    "median_seconds": 3.524,
+    "peak_rss_mib": 25.3,
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "note": "Throughput = 813381 operations per second, relative time: 1229.437s."
+  }
+]

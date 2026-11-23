@@ -1,0 +1,126 @@
+[
+  {
+    "mode": "random",
+    "config": "glibc",
+    "live_mib": 12.2,
+    "before_free_mib": 167.8,
+    "after_mesh_pss_mib": 167.8,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "jemalloc",
+    "live_mib": 12.2,
+    "before_free_mib": 140.2,
+    "after_mesh_pss_mib": 140.2,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "mesh",
+    "live_mib": 12.2,
+    "before_free_mib": 137.3,
+    "after_mesh_pss_mib": 76.8,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "mesh-nomesh",
+    "crashed": true,
+    "error": "/mnt/devil/Sem-7/CS/Presentations/p2/reference/Mesh/src/meshable_arena.h:842:void mesh::MeshableArena<PageSize>::finalizeMesh(void*, void*, size_t) [with long u"
+  },
+  {
+    "mode": "random",
+    "config": "mesh-norand",
+    "live_mib": 12.2,
+    "before_free_mib": 137.3,
+    "after_mesh_pss_mib": 76.8,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "mymesh",
+    "live_mib": 12.2,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 52.3,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "mymesh-nomesh",
+    "live_mib": 12.2,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 143.5,
+    "data_ok": true
+  },
+  {
+    "mode": "random",
+    "config": "mymesh-norand",
+    "live_mib": 12.2,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 52.3,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "glibc",
+    "live_mib": 15.3,
+    "before_free_mib": 167.8,
+    "after_mesh_pss_mib": 167.8,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "jemalloc",
+    "live_mib": 15.3,
+    "before_free_mib": 140.2,
+    "after_mesh_pss_mib": 140.2,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "mesh",
+    "live_mib": 15.3,
+    "before_free_mib": 137.3,
+    "after_mesh_pss_mib": 62.5,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "mesh-nomesh",
+    "crashed": true,
+    "error": "/mnt/devil/Sem-7/CS/Presentations/p2/reference/Mesh/src/meshable_arena.h:842:void mesh::MeshableArena<PageSize>::finalizeMesh(void*, void*, size_t) [with long u"
+  },
+  {
+    "mode": "stride",
+    "config": "mesh-norand",
+    "live_mib": 15.3,
+    "before_free_mib": 137.3,
+    "after_mesh_pss_mib": 143.3,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "mymesh",
+    "live_mib": 15.3,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 58.4,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "mymesh-nomesh",
+    "live_mib": 15.3,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 143.5,
+    "data_ok": true
+  },
+  {
+    "mode": "stride",
+    "config": "mymesh-norand",
+    "live_mib": 15.3,
+    "before_free_mib": 143.5,
+    "after_mesh_pss_mib": 143.5,
+    "data_ok": true
+  }
+]
