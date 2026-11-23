@@ -1,6 +1,6 @@
 # Mesh: implementation and reproduction
 
-Requires Linux x86_64, gcc, make, cmake, curl, Python 3 with matplotlib, and Typst for the slides.
+Requires Linux x86_64, gcc, make, cmake, curl, and Python 3 with matplotlib.
 
 ## Build and test the allocator
 
@@ -23,11 +23,4 @@ python3 ruby_strings.py
 python3 microbench.py
 python3 overhead.py
 python3 plot.py                    # writes figures to experiments/results/
-```
-
-## Build the slides
-
-```sh
-cd slides/p2-slides
-typst compile main.typ main.pdf
 ```
